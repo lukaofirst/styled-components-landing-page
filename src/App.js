@@ -1,10 +1,15 @@
+import React, { Fragment } from 'react';
+import Header from './components/Header';
 import { Container } from './components/styles/Container.styled';
 
 function App() {
     return (
-        <Container>
-            <h1>Hello World from React</h1>
-        </Container>
+        <Fragment>
+            <Header />
+            <Container>
+                <h1>Hello World from React</h1>
+            </Container>
+        </Fragment>
     );
 }
 
